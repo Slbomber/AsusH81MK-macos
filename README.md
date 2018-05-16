@@ -1,4 +1,4 @@
-# AsusH81M-K macOS Install Resources
+# Asus H81M-K macOS Install Resources
 
 This project created for working macOS  Clover Configuration. Worked with this board and Core i3/i5/i7 CPUs with HD4400/4600 graphics. Builds will be updated at future.
 
@@ -8,7 +8,7 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 * Download or clone this repo
 
-* Download latest BIOS (version 1322 at last moment) [here](https://sourceforge.net/projects/cloverefiboot/files/latest/download) and flash via ASUS EZ Flash - guide [here](https://www.asus.com/support/FAQ/1012154/)
+* Download latest BIOS (version 3602 at last moment) [here](https://sourceforge.net/projects/cloverefiboot/files/latest/download) and flash via ASUS EZ Flash - guide [here](https://www.asus.com/support/FAQ/1012154/)
 
 * Reset BIOS to default and check this settings:
 
