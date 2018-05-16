@@ -29,6 +29,8 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 * Copy DSDT.aml/SSDT-3-SaSsdt.aml from ACPI folder and copy to /EFI/CLOVER/ACPI/patched on USB Drive
 
+* Copy config.plist to /EFI/CLOVER
+
 * Copy kexts of "kexts/other" folder and copy to /EFI/CLOVER/kexts/10.13 on USB Drive
 
 * Boot and install macOS from USB Drive - guide [here](https://hackintosher.com/guides/macos-high-sierra-hackintosh-install-clover-walkthrough/)
