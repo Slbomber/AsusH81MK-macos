@@ -8,7 +8,7 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 * Download or clone this repo
 
-* Download latest BIOS (version 3602 at last moment) [here](https://sourceforge.net/projects/cloverefiboot/files/latest/download) and flash via ASUS EZ Flash - guide [here](https://www.asus.com/support/FAQ/1012154/)
+* Download latest BIOS (version 3602 at last moment) [here](https://www.asus.com/Motherboards/H81MK/HelpDesk_BIOS/) and flash via ASUS EZ Flash - guide [here](https://www.asus.com/support/FAQ/1012154/)
 
 * Reset BIOS to default and check this settings:
 
