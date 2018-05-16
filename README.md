@@ -12,7 +12,8 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 * Reset BIOS to default and check this settings:
 
-```- CSM(Compability Support Module): Disabled
+```
+- CSM(Compability Support Module): Disabled
 - iGPU Memory: 96MB
 - CPU MSR Lock: Disabled
 - Sata Configuration: AHCI
