@@ -25,10 +25,10 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 * Prepare macOS USB Installation Drive - guide [here](https://www.ifixit.com/Guide/Create+a+bootable+USB+drive/66371)
 
-* Download latest Clover Bootloader [here](https://sourceforge.net/projects/cloverefiboot/files/latest/download), install it on USB Insallation Drive for UEFI Boot via one! additional Driver - OSXAptioFix3Drv
-`Add apfs.efi from APFS folder to EFI/CLOVER/drivers64UEFI on USB Drive ONLY (!!!) if you have SSD Drives`
+* Download latest Clover Bootloader [here](https://sourceforge.net/projects/cloverefiboot/files/latest/download), install it on USB Insallation Drive for UEFI Boot via few additional drivers: AppleImageCodec,AppleKeyAgregator,AppleUITheme,DataHubDxe,FirmwareVolume,FSInject,SMCHelper,VBoxHfs,OsxAptioFix3Drv.
+`Install Apfs Driver loader from Clover Installer on USB Drive ONLY if you have SSD Drives`
 
-* Copy DSDT.aml/SSDT-3-SaSsdt.aml from ACPI folder and copy to /EFI/CLOVER/ACPI/patched on USB Drive
+* Copy DSDT.aml from ACPI folder and copy to /EFI/CLOVER/ACPI/patched on USB Drive
 
 * Copy config.plist to /EFI/CLOVER
 
@@ -46,7 +46,7 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 ### Notes
 
-* Latest Clover Bootloader (rev. 4449) have issue for me - kernel panic ACPI,with older versions i don't have this trouble. If you will see this - disable Generate CStates/PStates in Clover config. Thx!
+* Please check graphics freq (not tested), normally - 0.2 to 1.15 Ghz (use Intel Power Gadget)
 
 * Older versions of macOS may be needed additional patches/fixes, but it's may be working too.
 
@@ -54,6 +54,9 @@ This project created for working macOS  Clover Configuration. Worked with this b
 
 #### 1.0 (16 May 2018) 
 - Initial release for macOS High Sierra 10.13.4 
+
+#### 1.1 (6 Aug 2018) 
+- Repo updated to macOS High Sierra 10.13.6
 
 ### Credits
 
